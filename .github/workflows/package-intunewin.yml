@@ -1,6 +1,7 @@
 name: Create and Deploy IntuneWin Package
 
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [package-app]
 
